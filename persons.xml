@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="model.Person">
+    <void property="age">
+     <int>33</int>
+    </void>
+    <void property="name">
+     <string>Teodora</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>1233</string>
+    </void>
+    <void property="surname">
+     <string>Marković</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="model.Person">
+    <void property="age">
+     <int>13</int>
+    </void>
+    <void property="name">
+     <string>Semra</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>3233</string>
+    </void>
+    <void property="surname">
+     <string>Gačanin</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="model.Person">
+    <void property="age">
+     <int>21</int>
+    </void>
+    <void property="name">
+     <string>Bilal</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>2222</string>
+    </void>
+    <void property="surname">
+     <string>Sporišević</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="model.Person">
+    <void property="age">
+     <int>27</int>
+    </void>
+    <void property="name">
+     <string>Bilal</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>1111</string>
+    </void>
+    <void property="surname">
+     <string>Hujdurović</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="model.Person">
+    <void property="age">
+     <int>31</int>
+    </void>
+    <void property="name">
+     <string>Nedim</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>2333232</string>
+    </void>
+    <void property="surname">
+     <string>Čimić</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="model.Person">
+    <void property="age">
+     <int>43</int>
+    </void>
+    <void property="name">
+     <string>Emir</string>
+    </void>
+    <void property="nationalIdentificationNumber">
+     <string>122323</string>
+    </void>
+    <void property="surname">
+     <string>Sarajlić</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
