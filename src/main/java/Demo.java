@@ -1,12 +1,15 @@
 import dao.Dao;
 import dao.PersonFileDao;
+import dao.PersonJSONDao;
 import dao.PersonSerializableDao;
 import dao.PersonXMLDao;
 import model.Person;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Demo {
 
@@ -35,7 +38,7 @@ public class Demo {
         /**
          * Test upisivanja personList u persons.xml
          */
-        Dao<Person> personDao = new PersonXMLDao();
+        //Dao<Person> personDao = new PersonXMLDao();
         //personDao.writeElements(new ArrayList<>(personList));
 
 
@@ -55,7 +58,14 @@ public class Demo {
         /**
          * Test čitanja personList iz XML
          */
-        List<Person> xmlLista = personDao.readElements();
-        xmlLista.forEach(System.out::println);
+//        List<Person> xmlLista = personDao.readElements();
+//        xmlLista.forEach(System.out::println);
+
+        Dao<Person> personDao = new PersonJSONDao();
+//        personDao.writeElements(personList);
+        List<Person> jsonLista = personDao.readElements();
+        for(Person person : jsonLista){
+            System.out.println(person);
+        }
     }
 }

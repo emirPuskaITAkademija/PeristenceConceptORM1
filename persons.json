@@ -1,0 +1,38 @@
+[
+  {
+    "nin": "1233",
+    "surname": "Marković",
+    "name": "Teodora",
+    "age": 33
+  },
+  {
+    "nin": "3233",
+    "surname": "Gačanin",
+    "name": "Semra",
+    "age": 13
+  },
+  {
+    "nin": "2222",
+    "surname": "Sporišević",
+    "name": "Bilal",
+    "age": 21
+  },
+  {
+    "nin": "1111",
+    "surname": "Hujdurović",
+    "name": "Bilal",
+    "age": 27
+  },
+  {
+    "nin": "2333232",
+    "surname": "Čimić",
+    "name": "Nedim",
+    "age": 31
+  },
+  {
+    "nin": "122323",
+    "surname": "Sarajlić",
+    "name": "Emir",
+    "age": 43
+  }
+]
